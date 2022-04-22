@@ -11,6 +11,7 @@ struct FooterView: View {
     var body: some View {
         ZStack {
             FooterBackgroundView()
+            FooterContentView()
         }
     }
 }
