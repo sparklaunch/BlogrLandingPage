@@ -26,6 +26,7 @@
 		90960E2C281259CD00538202 /* InfrastructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E2B281259CD00538202 /* InfrastructureView.swift */; };
 		90960E2E281259F700538202 /* InfrastructureBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */; };
 		90960E3028125BC900538202 /* InfrastructureContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E2F28125BC900538202 /* InfrastructureContentView.swift */; };
+		90960E3228125D5C00538202 /* LaptopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E3128125D5C00538202 /* LaptopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		90960E2B281259CD00538202 /* InfrastructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureView.swift; sourceTree = "<group>"; };
 		90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureBackgroundView.swift; sourceTree = "<group>"; };
 		90960E2F28125BC900538202 /* InfrastructureContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureContentView.swift; sourceTree = "<group>"; };
+		90960E3128125D5C00538202 /* LaptopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				90960E2B281259CD00538202 /* InfrastructureView.swift */,
 				90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */,
 				90960E2F28125BC900538202 /* InfrastructureContentView.swift */,
+				90960E3128125D5C00538202 /* LaptopView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				90960E2A281258AE00538202 /* RobustView.swift in Sources */,
 				90960E242812534100538202 /* LearnMoreButtonView.swift in Sources */,
 				90960E282812575D00538202 /* EditorView.swift in Sources */,
+				90960E3228125D5C00538202 /* LaptopView.swift in Sources */,
 				90960E26281256AE00538202 /* DesignView.swift in Sources */,
 				90960E1A28124EF300538202 /* HeaderBackgroundView.swift in Sources */,
 				90960E202812524000538202 /* HeaderTitleView.swift in Sources */,
