@@ -13,6 +13,9 @@
 		90960E0928124B6000538202 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960DF728124B5D00538202 /* ContentView.swift */; };
 		90960E0A28124B6000538202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90960DF828124B6000538202 /* Assets.xcassets */; };
 		90960E0B28124B6000538202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90960DF828124B6000538202 /* Assets.xcassets */; };
+		90960E1828124ED400538202 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E1728124ED400538202 /* HeaderView.swift */; };
+		90960E1A28124EF300538202 /* HeaderBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E1928124EF300538202 /* HeaderBackgroundView.swift */; };
+		90960E1C2812503300538202 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E1B2812503300538202 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		90960DFD28124B6000538202 /* Blogr Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blogr Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90960E0328124B6000538202 /* Blogr Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blogr Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90960E0528124B6000538202 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90960E1728124ED400538202 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		90960E1928124EF300538202 /* HeaderBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackgroundView.swift; sourceTree = "<group>"; };
+		90960E1B2812503300538202 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 			children = (
 				90960DF628124B5D00538202 /* BlogrLandingPageApp.swift */,
 				90960DF828124B6000538202 /* Assets.xcassets */,
+				90960E1B2812503300538202 /* Utilities.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -91,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				90960DF728124B5D00538202 /* ContentView.swift */,
+				90960E1728124ED400538202 /* HeaderView.swift */,
+				90960E1928124EF300538202 /* HeaderBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +210,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90960E0828124B6000538202 /* ContentView.swift in Sources */,
+				90960E1A28124EF300538202 /* HeaderBackgroundView.swift in Sources */,
+				90960E1828124ED400538202 /* HeaderView.swift in Sources */,
+				90960E1C2812503300538202 /* Utilities.swift in Sources */,
 				90960E0628124B6000538202 /* BlogrLandingPageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
