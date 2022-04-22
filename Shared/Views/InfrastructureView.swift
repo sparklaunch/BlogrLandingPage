@@ -11,7 +11,10 @@ struct InfrastructureView: View {
     var body: some View {
         ZStack {
             InfrastructureBackgroundView()
+            InfrastructureContentView()
+                .offset(x: .zero, y: 100)
         }
+        .padding(.top, 250)
     }
 }
 
