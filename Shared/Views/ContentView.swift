@@ -9,8 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            HeaderView()
+        ScrollView {
+            VStack {
+                HeaderView()
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
+        .onAppear {
+            UIScrollView.appearance().bounces = false
         }
     }
 }

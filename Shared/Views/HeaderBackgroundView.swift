@@ -11,8 +11,9 @@ struct HeaderBackgroundView: View {
     var body: some View {
         ZStack {
             LinearGradient(colors: [Color("TopBackgroundColor"), Color("BottomBackgroundColor")], startPoint: .top, endPoint: .bottom)
+                .frame(height: 650)
             Image(decorative: "IntroBackgroundPattern")
-                .scaleEffect(2.5)
+                .scaleEffect(3)
         }
         .fixedSize(horizontal: false, vertical: true)
         .cornerRadius(100, corners: [.bottomLeft])

@@ -11,12 +11,14 @@ struct HeaderView: View {
     var body: some View {
         ZStack(alignment: .top) {
             HeaderBackgroundView()
-            VStack {
+            VStack(spacing: 48) {
                 TopNavigationView()
-                HeaderTitleView()
-                HStack(spacing: 24) {
-                    StartButtonView()
-                    LearnMoreButtonView()
+                VStack(spacing: 24) {
+                    HeaderTitleView()
+                    HStack(spacing: 24) {
+                        StartButtonView()
+                        LearnMoreButtonView()
+                    }
                 }
             }
         }
