@@ -23,6 +23,8 @@
 		90960E26281256AE00538202 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E25281256AE00538202 /* DesignView.swift */; };
 		90960E282812575D00538202 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E272812575D00538202 /* EditorView.swift */; };
 		90960E2A281258AE00538202 /* RobustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E29281258AE00538202 /* RobustView.swift */; };
+		90960E2C281259CD00538202 /* InfrastructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E2B281259CD00538202 /* InfrastructureView.swift */; };
+		90960E2E281259F700538202 /* InfrastructureBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		90960E25281256AE00538202 /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
 		90960E272812575D00538202 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		90960E29281258AE00538202 /* RobustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobustView.swift; sourceTree = "<group>"; };
+		90960E2B281259CD00538202 /* InfrastructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureView.swift; sourceTree = "<group>"; };
+		90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				90960E25281256AE00538202 /* DesignView.swift */,
 				90960E272812575D00538202 /* EditorView.swift */,
 				90960E29281258AE00538202 /* RobustView.swift */,
+				90960E2B281259CD00538202 /* InfrastructureView.swift */,
+				90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90960E0828124B6000538202 /* ContentView.swift in Sources */,
+				90960E2C281259CD00538202 /* InfrastructureView.swift in Sources */,
 				90960E2A281258AE00538202 /* RobustView.swift in Sources */,
 				90960E242812534100538202 /* LearnMoreButtonView.swift in Sources */,
 				90960E282812575D00538202 /* EditorView.swift in Sources */,
@@ -242,6 +249,7 @@
 				90960E222812531900538202 /* StartButtonView.swift in Sources */,
 				90960E1C2812503300538202 /* Utilities.swift in Sources */,
 				90960E0628124B6000538202 /* BlogrLandingPageApp.swift in Sources */,
+				90960E2E281259F700538202 /* InfrastructureBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
