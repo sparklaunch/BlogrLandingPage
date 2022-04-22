@@ -9,8 +9,11 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .top) {
             HeaderBackgroundView()
+            VStack {
+                TopNavigationView()
+            }
         }
     }
 }
