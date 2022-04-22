@@ -13,6 +13,7 @@ struct HeaderView: View {
             HeaderBackgroundView()
             VStack {
                 TopNavigationView()
+                HeaderTitleView()
             }
         }
     }
