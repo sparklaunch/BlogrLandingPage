@@ -19,7 +19,7 @@ struct DesignView: View {
                 .scaledToFit()
         }
         .padding()
-        .padding(.vertical, 48)
+        .padding(.vertical, 36)
     }
 }
 

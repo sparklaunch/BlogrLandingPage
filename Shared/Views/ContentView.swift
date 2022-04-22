@@ -13,6 +13,7 @@ struct ContentView: View {
             VStack {
                 HeaderView()
                 DesignView()
+                EditorView()
             }
         }
         .edgesIgnoringSafeArea(.all)
