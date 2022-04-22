@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "CirclesBackgroundPattern.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "CirclesBackgroundPattern@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "CirclesBackgroundPattern@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
