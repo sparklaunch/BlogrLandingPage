@@ -27,6 +27,7 @@
 		90960E2E281259F700538202 /* InfrastructureBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */; };
 		90960E3028125BC900538202 /* InfrastructureContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E2F28125BC900538202 /* InfrastructureContentView.swift */; };
 		90960E3228125D5C00538202 /* LaptopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E3128125D5C00538202 /* LaptopView.swift */; };
+		90960E3428125DAF00538202 /* FreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E3328125DAF00538202 /* FreeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureBackgroundView.swift; sourceTree = "<group>"; };
 		90960E2F28125BC900538202 /* InfrastructureContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureContentView.swift; sourceTree = "<group>"; };
 		90960E3128125D5C00538202 /* LaptopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopView.swift; sourceTree = "<group>"; };
+		90960E3328125DAF00538202 /* FreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */,
 				90960E2F28125BC900538202 /* InfrastructureContentView.swift */,
 				90960E3128125D5C00538202 /* LaptopView.swift */,
+				90960E3328125DAF00538202 /* FreeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				90960E1E2812517F00538202 /* TopNavigationView.swift in Sources */,
 				90960E1828124ED400538202 /* HeaderView.swift in Sources */,
 				90960E222812531900538202 /* StartButtonView.swift in Sources */,
+				90960E3428125DAF00538202 /* FreeView.swift in Sources */,
 				90960E1C2812503300538202 /* Utilities.swift in Sources */,
 				90960E0628124B6000538202 /* BlogrLandingPageApp.swift in Sources */,
 				90960E2E281259F700538202 /* InfrastructureBackgroundView.swift in Sources */,

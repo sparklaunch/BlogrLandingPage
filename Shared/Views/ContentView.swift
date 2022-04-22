@@ -17,6 +17,7 @@ struct ContentView: View {
                 RobustView()
                 InfrastructureView()
                 LaptopView()
+                FreeView()
             }
         }
         .edgesIgnoringSafeArea(.all)
