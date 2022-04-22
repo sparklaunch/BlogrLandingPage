@@ -19,6 +19,7 @@ struct ContentView: View {
                 LaptopView()
                 FreeView()
                 PowerfulView()
+                FooterView()
             }
         }
         .edgesIgnoringSafeArea(.all)
