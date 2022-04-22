@@ -13,6 +13,8 @@ struct FooterView: View {
             FooterBackgroundView()
             FooterContentView()
         }
+        .fixedSize(horizontal: false, vertical: true)
+        .padding(.top, 64)
     }
 }
 

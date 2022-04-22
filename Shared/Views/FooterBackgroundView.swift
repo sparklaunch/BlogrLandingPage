@@ -10,9 +10,7 @@ import SwiftUI
 struct FooterBackgroundView: View {
     var body: some View {
         Color("FooterBackgroundColor")
-            .frame(height: 500)
             .cornerRadius(100, corners: [.topRight])
-            .padding(.top, 64)
     }
 }
 

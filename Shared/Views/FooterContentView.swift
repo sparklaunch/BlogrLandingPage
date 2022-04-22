@@ -19,13 +19,13 @@ struct FooterContentView: View {
                 FooterGroupView(title: "Connect", items: [FooterItem(text: "Contact", link: "#"), FooterItem(text: "Newsletter", link: "#"), FooterItem(text: "LinkedIn", link: "#")])
             }
         }
+        .padding(64)
     }
 }
 
 struct FooterContentView_Previews: PreviewProvider {
     static var previews: some View {
         FooterContentView()
-            .padding()
             .background(Color("FooterBackgroundColor"))
             .previewLayout(.sizeThatFits)
     }
