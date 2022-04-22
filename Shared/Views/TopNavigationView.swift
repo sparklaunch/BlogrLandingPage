@@ -23,6 +23,7 @@ struct TopNavigationView: View {
             }
         }
         .padding(24)
+        .padding(.top, 36)
     }
 }
 

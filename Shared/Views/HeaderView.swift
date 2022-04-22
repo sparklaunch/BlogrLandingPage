@@ -14,6 +14,10 @@ struct HeaderView: View {
             VStack {
                 TopNavigationView()
                 HeaderTitleView()
+                HStack(spacing: 24) {
+                    StartButtonView()
+                    LearnMoreButtonView()
+                }
             }
         }
     }
