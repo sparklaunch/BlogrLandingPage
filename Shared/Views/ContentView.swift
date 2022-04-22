@@ -12,6 +12,7 @@ struct ContentView: View {
         ScrollView {
             VStack {
                 HeaderView()
+                DesignView()
             }
         }
         .edgesIgnoringSafeArea(.all)

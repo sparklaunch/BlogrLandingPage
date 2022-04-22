@@ -20,6 +20,7 @@
 		90960E202812524000538202 /* HeaderTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E1F2812524000538202 /* HeaderTitleView.swift */; };
 		90960E222812531900538202 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E212812531900538202 /* StartButtonView.swift */; };
 		90960E242812534100538202 /* LearnMoreButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E232812534100538202 /* LearnMoreButtonView.swift */; };
+		90960E26281256AE00538202 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E25281256AE00538202 /* DesignView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		90960E1F2812524000538202 /* HeaderTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTitleView.swift; sourceTree = "<group>"; };
 		90960E212812531900538202 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		90960E232812534100538202 /* LearnMoreButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreButtonView.swift; sourceTree = "<group>"; };
+		90960E25281256AE00538202 /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				90960E1F2812524000538202 /* HeaderTitleView.swift */,
 				90960E212812531900538202 /* StartButtonView.swift */,
 				90960E232812534100538202 /* LearnMoreButtonView.swift */,
+				90960E25281256AE00538202 /* DesignView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			files = (
 				90960E0828124B6000538202 /* ContentView.swift in Sources */,
 				90960E242812534100538202 /* LearnMoreButtonView.swift in Sources */,
+				90960E26281256AE00538202 /* DesignView.swift in Sources */,
 				90960E1A28124EF300538202 /* HeaderBackgroundView.swift in Sources */,
 				90960E202812524000538202 /* HeaderTitleView.swift in Sources */,
 				90960E1E2812517F00538202 /* TopNavigationView.swift in Sources */,
