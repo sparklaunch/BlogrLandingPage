@@ -22,6 +22,7 @@
 		90960E242812534100538202 /* LearnMoreButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E232812534100538202 /* LearnMoreButtonView.swift */; };
 		90960E26281256AE00538202 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E25281256AE00538202 /* DesignView.swift */; };
 		90960E282812575D00538202 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E272812575D00538202 /* EditorView.swift */; };
+		90960E2A281258AE00538202 /* RobustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E29281258AE00538202 /* RobustView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		90960E232812534100538202 /* LearnMoreButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreButtonView.swift; sourceTree = "<group>"; };
 		90960E25281256AE00538202 /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
 		90960E272812575D00538202 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		90960E29281258AE00538202 /* RobustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobustView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				90960E232812534100538202 /* LearnMoreButtonView.swift */,
 				90960E25281256AE00538202 /* DesignView.swift */,
 				90960E272812575D00538202 /* EditorView.swift */,
+				90960E29281258AE00538202 /* RobustView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90960E0828124B6000538202 /* ContentView.swift in Sources */,
+				90960E2A281258AE00538202 /* RobustView.swift in Sources */,
 				90960E242812534100538202 /* LearnMoreButtonView.swift in Sources */,
 				90960E282812575D00538202 /* EditorView.swift in Sources */,
 				90960E26281256AE00538202 /* DesignView.swift in Sources */,
