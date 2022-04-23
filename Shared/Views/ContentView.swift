@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var globalState = GlobalState()
     var body: some View {
-        ZStack {
+        ZStack(alignment: .top) {
             ScrollView {
                 VStack {
                     HeaderView()
@@ -29,6 +29,7 @@ struct ContentView: View {
                 UIScrollView.appearance().bounces = false
             }
             MenuView()
+                .offset(x: .zero, y: 100)
                 .opacity(globalState.isMenuVisible ? 1 : .zero)
         }
         .environmentObject(globalState)
