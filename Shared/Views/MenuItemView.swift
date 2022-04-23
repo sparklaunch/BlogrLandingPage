@@ -17,7 +17,7 @@ struct MenuItemView: View {
                     isExpanded.toggle()
                 }
             } label: {
-                HStack {
+                HStack(spacing: 16) {
                     Text(item.title)
                         .font(.title3)
                         .fontWeight(.semibold)
@@ -26,22 +26,29 @@ struct MenuItemView: View {
                         .resizable()
                         .frame(width: 10, height: 7)
                         .scaleEffect(1.2)
+                        .rotationEffect(isExpanded && !item.submenuItems.isEmpty ? .degrees(180) : .zero)
                 }
                 .padding()
             }
             if isExpanded && !item.submenuItems.isEmpty {
-                VStack(spacing: 16) {
-                    ForEach(item.submenuItems, id: \.self) { subItem in
-                        Button {
-                            // TODO: LINK TO subItem.link
-                        } label: {
-                            Text(subItem.title)
-                                .font(.body)
-                                .fontWeight(.semibold)
-                                .foregroundColor(Color("TitleColor").opacity(0.8))
+                ZStack {
+                    Color("SubmenuBackgroundColor")
+                    VStack(spacing: 16) {
+                        ForEach(item.submenuItems, id: \.self) { subItem in
+                            Button {
+                                // TODO: LINK TO subItem.link
+                            } label: {
+                                Text(subItem.title)
+                                    .font(.body)
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(Color("TitleColor").opacity(0.8))
+                            }
                         }
                     }
+                    .padding(24)
                 }
+                .cornerRadius(15)
+                .padding(16)
             }
         }
     }
