@@ -17,12 +17,12 @@ struct TopNavigationView: View {
             Spacer()
             Button {
                 withAnimation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: .zero)) {
-                    globalState.isMenuVisible = true
+                    globalState.isMenuVisible.toggle()
                 }
             } label: {
-                Image(decorative: "Hamburger")
+                Image(decorative: globalState.isMenuVisible ? "Close" : "Hamburger")
                     .resizable()
-                    .frame(width: 32, height: 18)
+                    .frame(width: globalState.isMenuVisible ? 26 : 32, height: globalState.isMenuVisible ? 26 : 18)
             }
         }
         .padding(24)

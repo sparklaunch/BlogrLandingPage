@@ -28,6 +28,8 @@ struct ContentView: View {
             .onAppear {
                 UIScrollView.appearance().bounces = false
             }
+            MenuView()
+                .opacity(globalState.isMenuVisible ? 1 : .zero)
         }
         .environmentObject(globalState)
     }

@@ -11,7 +11,7 @@ struct MenuItemView: View {
     @State private var isExpanded = false
     let item: MenuItem
     var body: some View {
-        VStack {
+        VStack(spacing: .zero) {
             Button {
                 withAnimation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: .zero)) {
                     isExpanded.toggle()
@@ -29,13 +29,16 @@ struct MenuItemView: View {
                 }
                 .padding()
             }
-            if isExpanded {
-                VStack {
+            if isExpanded && !item.submenuItems.isEmpty {
+                VStack(spacing: 16) {
                     ForEach(item.submenuItems, id: \.self) { subItem in
                         Button {
                             // TODO: LINK TO subItem.link
                         } label: {
                             Text(subItem.title)
+                                .font(.body)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color("TitleColor").opacity(0.8))
                         }
                     }
                 }

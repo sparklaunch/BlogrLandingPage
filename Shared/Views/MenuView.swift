@@ -12,9 +12,16 @@ struct MenuView: View {
         ZStack {
             Color.white
             VStack {
-                
+                MenuItemView(item: MenuItem(title: "Product", submenuItems: []))
+                MenuItemView(item: MenuItem(title: "Company", submenuItems: []))
+                MenuItemView(item: MenuItem(title: "Connect", submenuItems: [SubmenuItem(title: "Contact", link: "#"), SubmenuItem(title: "Newsletter", link: "#"), SubmenuItem(title: "LinkedIn", link: "#")]))
             }
+            .padding()
         }
+        .fixedSize(horizontal: false, vertical: true)
+        .cornerRadius(15)
+        .shadow(radius: 10)
+        .padding(.horizontal, 48)
     }
 }
 
