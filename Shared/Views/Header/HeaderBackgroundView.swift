@@ -13,6 +13,8 @@ struct HeaderBackgroundView: View {
             LinearGradient(colors: [Color("TopBackgroundColor"), Color("BottomBackgroundColor")], startPoint: .top, endPoint: .bottom)
                 .frame(height: 650)
             Image(decorative: "IntroBackgroundPattern")
+                .resizable()
+                .scaledToFit()
                 .scaleEffect(3)
         }
         .fixedSize(horizontal: false, vertical: true)
