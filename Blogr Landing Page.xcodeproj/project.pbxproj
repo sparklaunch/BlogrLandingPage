@@ -145,30 +145,12 @@
 		90960E1528124B7C00538202 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				90960E512813CBAB00538202 /* Menu */,
+				90960E502813CB9700538202 /* Footer */,
+				90960E4F2813CB7900538202 /* Misc */,
+				90960E4E2813CB6400538202 /* Infrastructure */,
+				90960E4D2813CB3800538202 /* Header */,
 				90960DF728124B5D00538202 /* ContentView.swift */,
-				90960E1728124ED400538202 /* HeaderView.swift */,
-				90960E1928124EF300538202 /* HeaderBackgroundView.swift */,
-				90960E1D2812517F00538202 /* TopNavigationView.swift */,
-				90960E1F2812524000538202 /* HeaderTitleView.swift */,
-				90960E212812531900538202 /* StartButtonView.swift */,
-				90960E232812534100538202 /* LearnMoreButtonView.swift */,
-				90960E25281256AE00538202 /* DesignView.swift */,
-				90960E272812575D00538202 /* EditorView.swift */,
-				90960E29281258AE00538202 /* RobustView.swift */,
-				90960E2B281259CD00538202 /* InfrastructureView.swift */,
-				90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */,
-				90960E2F28125BC900538202 /* InfrastructureContentView.swift */,
-				90960E3128125D5C00538202 /* LaptopView.swift */,
-				90960E3328125DAF00538202 /* FreeView.swift */,
-				90960E3528125E7B00538202 /* PowerfulView.swift */,
-				90960E3728125F0800538202 /* FooterView.swift */,
-				90960E3928135ADB00538202 /* FooterBackgroundView.swift */,
-				90960E3B28135BA400538202 /* FooterContentView.swift */,
-				90960E3D28135C4800538202 /* FooterGroupView.swift */,
-				90960E432813BA4C00538202 /* MenuView.swift */,
-				90960E472813BB2F00538202 /* MenuItemView.swift */,
-				90960E492813C83D00538202 /* LoginButtonView.swift */,
-				90960E4B2813C8FD00538202 /* SignUpButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +163,64 @@
 				90960E452813BA9B00538202 /* MenuItem.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		90960E4D2813CB3800538202 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				90960E1728124ED400538202 /* HeaderView.swift */,
+				90960E1928124EF300538202 /* HeaderBackgroundView.swift */,
+				90960E1D2812517F00538202 /* TopNavigationView.swift */,
+				90960E1F2812524000538202 /* HeaderTitleView.swift */,
+				90960E212812531900538202 /* StartButtonView.swift */,
+				90960E232812534100538202 /* LearnMoreButtonView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		90960E4E2813CB6400538202 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				90960E2B281259CD00538202 /* InfrastructureView.swift */,
+				90960E2D281259F700538202 /* InfrastructureBackgroundView.swift */,
+				90960E2F28125BC900538202 /* InfrastructureContentView.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		90960E4F2813CB7900538202 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				90960E3528125E7B00538202 /* PowerfulView.swift */,
+				90960E3328125DAF00538202 /* FreeView.swift */,
+				90960E3128125D5C00538202 /* LaptopView.swift */,
+				90960E272812575D00538202 /* EditorView.swift */,
+				90960E29281258AE00538202 /* RobustView.swift */,
+				90960E25281256AE00538202 /* DesignView.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		90960E502813CB9700538202 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				90960E3728125F0800538202 /* FooterView.swift */,
+				90960E3928135ADB00538202 /* FooterBackgroundView.swift */,
+				90960E3B28135BA400538202 /* FooterContentView.swift */,
+				90960E3D28135C4800538202 /* FooterGroupView.swift */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		90960E512813CBAB00538202 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				90960E432813BA4C00538202 /* MenuView.swift */,
+				90960E472813BB2F00538202 /* MenuItemView.swift */,
+				90960E492813C83D00538202 /* LoginButtonView.swift */,
+				90960E4B2813C8FD00538202 /* SignUpButtonView.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
