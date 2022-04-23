@@ -38,6 +38,7 @@
 		90960E442813BA4C00538202 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E432813BA4C00538202 /* MenuView.swift */; };
 		90960E462813BA9B00538202 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E452813BA9B00538202 /* MenuItem.swift */; };
 		90960E482813BB2F00538202 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E472813BB2F00538202 /* MenuItemView.swift */; };
+		90960E4A2813C83D00538202 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E492813C83D00538202 /* LoginButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		90960E432813BA4C00538202 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		90960E452813BA9B00538202 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		90960E472813BB2F00538202 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		90960E492813C83D00538202 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				90960E3D28135C4800538202 /* FooterGroupView.swift */,
 				90960E432813BA4C00538202 /* MenuView.swift */,
 				90960E472813BB2F00538202 /* MenuItemView.swift */,
+				90960E492813C83D00538202 /* LoginButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				90960E202812524000538202 /* HeaderTitleView.swift in Sources */,
 				90960E1E2812517F00538202 /* TopNavigationView.swift in Sources */,
 				90960E1828124ED400538202 /* HeaderView.swift in Sources */,
+				90960E4A2813C83D00538202 /* LoginButtonView.swift in Sources */,
 				90960E462813BA9B00538202 /* MenuItem.swift in Sources */,
 				90960E222812531900538202 /* StartButtonView.swift in Sources */,
 				90960E3428125DAF00538202 /* FreeView.swift in Sources */,

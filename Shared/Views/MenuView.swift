@@ -12,11 +12,16 @@ struct MenuView: View {
         ZStack {
             Color.white
             VStack {
-                MenuItemView(item: MenuItem(title: "Product", submenuItems: []))
-                MenuItemView(item: MenuItem(title: "Company", submenuItems: []))
-                MenuItemView(item: MenuItem(title: "Connect", submenuItems: [SubmenuItem(title: "Contact", link: "#"), SubmenuItem(title: "Newsletter", link: "#"), SubmenuItem(title: "LinkedIn", link: "#")]))
+                VStack {
+                    MenuItemView(item: MenuItem(title: "Product", submenuItems: []))
+                    MenuItemView(item: MenuItem(title: "Company", submenuItems: []))
+                    MenuItemView(item: MenuItem(title: "Connect", submenuItems: [SubmenuItem(title: "Contact", link: "#"), SubmenuItem(title: "Newsletter", link: "#"), SubmenuItem(title: "LinkedIn", link: "#")]))
+                }
+                .padding()
+                Divider()
+                    .padding(.horizontal, 24)
+                LoginButtonView()
             }
-            .padding()
         }
         .fixedSize(horizontal: false, vertical: true)
         .cornerRadius(15)
