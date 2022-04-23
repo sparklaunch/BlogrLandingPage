@@ -8,24 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var globalState = GlobalState()
     var body: some View {
-        ScrollView {
-            VStack {
-                HeaderView()
-                DesignView()
-                EditorView()
-                RobustView()
-                InfrastructureView()
-                LaptopView()
-                FreeView()
-                PowerfulView()
-                FooterView()
+        ZStack {
+            ScrollView {
+                VStack {
+                    HeaderView()
+                    DesignView()
+                    EditorView()
+                    RobustView()
+                    InfrastructureView()
+                    LaptopView()
+                    FreeView()
+                    PowerfulView()
+                    FooterView()
+                }
+            }
+            .edgesIgnoringSafeArea(.all)
+            .onAppear {
+                UIScrollView.appearance().bounces = false
             }
         }
-        .edgesIgnoringSafeArea(.all)
-        .onAppear {
-            UIScrollView.appearance().bounces = false
-        }
+        .environmentObject(globalState)
     }
 }
 

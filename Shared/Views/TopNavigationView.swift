@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TopNavigationView: View {
+    @EnvironmentObject var globalState: GlobalState
     var body: some View {
         HStack {
             Image("Logo")
@@ -15,7 +16,9 @@ struct TopNavigationView: View {
                 .frame(width: 101, height: 40)
             Spacer()
             Button {
-
+                withAnimation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: .zero)) {
+                    globalState.isMenuVisible = true
+                }
             } label: {
                 Image(decorative: "Hamburger")
                     .resizable()
