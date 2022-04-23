@@ -39,6 +39,7 @@
 		90960E462813BA9B00538202 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E452813BA9B00538202 /* MenuItem.swift */; };
 		90960E482813BB2F00538202 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E472813BB2F00538202 /* MenuItemView.swift */; };
 		90960E4A2813C83D00538202 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E492813C83D00538202 /* LoginButtonView.swift */; };
+		90960E4C2813C8FD00538202 /* SignUpButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E4B2813C8FD00538202 /* SignUpButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		90960E452813BA9B00538202 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		90960E472813BB2F00538202 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		90960E492813C83D00538202 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		90960E4B2813C8FD00538202 /* SignUpButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				90960E432813BA4C00538202 /* MenuView.swift */,
 				90960E472813BB2F00538202 /* MenuItemView.swift */,
 				90960E492813C83D00538202 /* LoginButtonView.swift */,
+				90960E4B2813C8FD00538202 /* SignUpButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				90960E3828125F0800538202 /* FooterView.swift in Sources */,
 				90960E3028125BC900538202 /* InfrastructureContentView.swift in Sources */,
 				90960E2A281258AE00538202 /* RobustView.swift in Sources */,
+				90960E4C2813C8FD00538202 /* SignUpButtonView.swift in Sources */,
 				90960E242812534100538202 /* LearnMoreButtonView.swift in Sources */,
 				90960E482813BB2F00538202 /* MenuItemView.swift in Sources */,
 				90960E282812575D00538202 /* EditorView.swift in Sources */,

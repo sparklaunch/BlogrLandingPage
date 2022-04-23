@@ -17,7 +17,6 @@ struct LoginButtonView: View {
                 .fontWeight(.bold)
                 .foregroundColor(Color("TitleColor"))
         }
-        .padding()
     }
 }
 

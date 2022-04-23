@@ -19,8 +19,12 @@ struct MenuView: View {
                 }
                 .padding()
                 Divider()
-                    .padding(.horizontal, 24)
-                LoginButtonView()
+                    .padding(.horizontal, 32)
+                VStack(spacing: 24) {
+                    LoginButtonView()
+                    SignUpButtonView()
+                }
+                .padding(24)
             }
         }
         .fixedSize(horizontal: false, vertical: true)
@@ -33,6 +37,7 @@ struct MenuView: View {
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
         MenuView()
+            .padding()
             .previewLayout(.sizeThatFits)
     }
 }
