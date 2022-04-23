@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HeaderTitleView: View {
     var body: some View {
-        VStack(spacing: 16) {
+        VStack(spacing: Constants.General.narrowSpacing) {
             Text("A modern publishing platform")
                 .font(.largeTitle)
                 .fontWeight(.bold)

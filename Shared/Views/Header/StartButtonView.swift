@@ -10,7 +10,7 @@ import SwiftUI
 struct StartButtonView: View {
     var body: some View {
         Button {
-
+            // TODO: START FOR FREE.
         } label: {
             Text("Start for Free")
                 .font(.title2)

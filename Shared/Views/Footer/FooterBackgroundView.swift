@@ -10,7 +10,7 @@ import SwiftUI
 struct FooterBackgroundView: View {
     var body: some View {
         Color("FooterBackgroundColor")
-            .cornerRadius(100, corners: [.topRight])
+            .cornerRadius(Constants.General.backgroundCornerRadius, corners: [.topRight])
     }
 }
 

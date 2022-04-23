@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PowerfulView: View {
     var body: some View {
-        VStack(spacing: 24) {
+        VStack(spacing: Constants.General.regularSpacing) {
             Text("Powerful tooling")
                 .font(.title)
                 .fontWeight(.semibold)
@@ -22,7 +22,7 @@ struct PowerfulView: View {
                 .padding(.horizontal)
         }
         .multilineTextAlignment(.center)
-        .padding(24)
+        .padding(Constants.General.regularPadding)
     }
 }
 

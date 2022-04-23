@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DesignView: View {
     var body: some View {
-        VStack(spacing: 24) {
+        VStack(spacing: Constants.General.regularSpacing) {
             Text("Designed for the future")
                 .font(.title)
                 .fontWeight(.semibold)
@@ -19,7 +19,7 @@ struct DesignView: View {
                 .scaledToFit()
         }
         .padding()
-        .padding(.vertical, 36)
+        .padding(.vertical, Constants.General.widePadding)
     }
 }
 

@@ -40,6 +40,7 @@
 		90960E482813BB2F00538202 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E472813BB2F00538202 /* MenuItemView.swift */; };
 		90960E4A2813C83D00538202 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E492813C83D00538202 /* LoginButtonView.swift */; };
 		90960E4C2813C8FD00538202 /* SignUpButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E4B2813C8FD00538202 /* SignUpButtonView.swift */; };
+		90960E532813CD3000538202 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90960E522813CD3000538202 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		90960E472813BB2F00538202 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		90960E492813C83D00538202 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 		90960E4B2813C8FD00538202 /* SignUpButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButtonView.swift; sourceTree = "<group>"; };
+		90960E522813CD3000538202 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				90960DF628124B5D00538202 /* BlogrLandingPageApp.swift */,
 				90960DF828124B6000538202 /* Assets.xcassets */,
 				90960E1B2812503300538202 /* Utilities.swift */,
+				90960E522813CD3000538202 /* Constants.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				90960E2C281259CD00538202 /* InfrastructureView.swift in Sources */,
 				90960E3828125F0800538202 /* FooterView.swift in Sources */,
 				90960E3028125BC900538202 /* InfrastructureContentView.swift in Sources */,
+				90960E532813CD3000538202 /* Constants.swift in Sources */,
 				90960E2A281258AE00538202 /* RobustView.swift in Sources */,
 				90960E4C2813C8FD00538202 /* SignUpButtonView.swift in Sources */,
 				90960E242812534100538202 /* LearnMoreButtonView.swift in Sources */,

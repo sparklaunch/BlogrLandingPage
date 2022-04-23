@@ -11,7 +11,7 @@ struct FooterGroupView: View {
     let title: String
     let items: [FooterItem]
     var body: some View {
-        VStack(spacing: 16) {
+        VStack(spacing: Constants.General.narrowSpacing) {
             Text(title)
                 .font(.title)
                 .fontWeight(.bold)

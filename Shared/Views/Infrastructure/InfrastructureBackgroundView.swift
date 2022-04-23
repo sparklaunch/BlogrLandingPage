@@ -19,7 +19,7 @@ struct InfrastructureBackgroundView: View {
                 .offset(x: .zero, y: -100)
         }
         .fixedSize(horizontal: false, vertical: true)
-        .cornerRadius(100, corners: [.topRight, .bottomLeft])
+        .cornerRadius(Constants.General.backgroundCornerRadius, corners: [.topRight, .bottomLeft])
         .overlay(
             Image(decorative: "Phones")
                 .resizable()

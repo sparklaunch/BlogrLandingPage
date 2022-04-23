@@ -11,11 +11,11 @@ struct HeaderView: View {
     var body: some View {
         ZStack(alignment: .top) {
             HeaderBackgroundView()
-            VStack(spacing: 48) {
+            VStack(spacing: Constants.General.extraWideSpacing) {
                 TopNavigationView()
-                VStack(spacing: 24) {
+                VStack(spacing: Constants.General.regularSpacing) {
                     HeaderTitleView()
-                    HStack(spacing: 24) {
+                    HStack(spacing: Constants.General.regularSpacing) {
                         StartButtonView()
                         LearnMoreButtonView()
                     }

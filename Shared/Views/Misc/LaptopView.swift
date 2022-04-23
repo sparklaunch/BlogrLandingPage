@@ -12,7 +12,7 @@ struct LaptopView: View {
         Image(decorative: "Laptop")
             .resizable()
             .scaledToFit()
-            .padding(.vertical, 24)
+            .padding(.vertical, Constants.General.regularPadding)
     }
 }
 

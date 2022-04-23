@@ -18,7 +18,7 @@ struct HeaderBackgroundView: View {
                 .scaleEffect(3)
         }
         .fixedSize(horizontal: false, vertical: true)
-        .cornerRadius(100, corners: [.bottomLeft])
+        .cornerRadius(Constants.General.backgroundCornerRadius, corners: [.bottomLeft])
     }
 }
 

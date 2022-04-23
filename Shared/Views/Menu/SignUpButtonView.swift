@@ -17,7 +17,7 @@ struct SignUpButtonView: View {
                 .fontWeight(.bold)
                 .foregroundColor(.white)
                 .padding()
-                .padding(.horizontal, 32)
+                .padding(.horizontal, Constants.General.semiwidePadding)
                 .background(
                     Capsule(style: .continuous)
                         .fill(

@@ -25,8 +25,8 @@ struct TopNavigationView: View {
                     .frame(width: globalState.isMenuVisible ? 26 : 32, height: globalState.isMenuVisible ? 26 : 18)
             }
         }
-        .padding(24)
-        .padding(.top, 48)
+        .padding(Constants.General.regularPadding)
+        .padding(.top, Constants.General.extraWidePadding)
     }
 }
 

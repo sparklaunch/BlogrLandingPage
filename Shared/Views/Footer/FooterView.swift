@@ -14,7 +14,7 @@ struct FooterView: View {
             FooterContentView()
         }
         .fixedSize(horizontal: false, vertical: true)
-        .padding(.top, 64)
+        .padding(.top, Constants.General.ultraWidePadding)
     }
 }
 

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RobustView: View {
     var body: some View {
-        VStack(spacing: 24) {
+        VStack(spacing: Constants.General.regularSpacing) {
             Text("Robust content management")
                 .font(.title)
                 .fontWeight(.semibold)
@@ -22,7 +22,7 @@ struct RobustView: View {
                 .lineSpacing(5)
         }
         .multilineTextAlignment(.center)
-        .padding(24)
+        .padding(Constants.General.regularPadding)
     }
 }
 

@@ -21,7 +21,7 @@ struct InfrastructureContentView: View {
                 .lineSpacing(5)
                 .padding()
         }
-        .padding(24)
+        .padding(Constants.General.regularPadding)
         .multilineTextAlignment(.center)
     }
 }

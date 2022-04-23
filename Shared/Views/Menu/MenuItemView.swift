@@ -17,7 +17,7 @@ struct MenuItemView: View {
                     isExpanded.toggle()
                 }
             } label: {
-                HStack(spacing: 16) {
+                HStack(spacing: Constants.General.narrowSpacing) {
                     Text(item.title)
                         .font(.title3)
                         .fontWeight(.semibold)
@@ -33,7 +33,7 @@ struct MenuItemView: View {
             if isExpanded && !item.submenuItems.isEmpty {
                 ZStack {
                     Color("SubmenuBackgroundColor")
-                    VStack(spacing: 16) {
+                    VStack(spacing: Constants.General.narrowSpacing) {
                         ForEach(item.submenuItems, id: \.self) { subItem in
                             Button {
                                 // TODO: LINK TO subItem.link
@@ -45,10 +45,10 @@ struct MenuItemView: View {
                             }
                         }
                     }
-                    .padding(24)
+                    .padding(Constants.General.regularPadding)
                 }
                 .cornerRadius(15)
-                .padding(16)
+                .padding(Constants.General.narrowPadding)
             }
         }
     }

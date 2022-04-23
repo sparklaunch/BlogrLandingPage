@@ -19,18 +19,18 @@ struct MenuView: View {
                 }
                 .padding()
                 Divider()
-                    .padding(.horizontal, 32)
-                VStack(spacing: 24) {
+                    .padding(.horizontal, Constants.General.semiwidePadding)
+                VStack(spacing: Constants.General.regularSpacing) {
                     LoginButtonView()
                     SignUpButtonView()
                 }
-                .padding(24)
+                .padding(Constants.General.regularPadding)
             }
         }
         .fixedSize(horizontal: false, vertical: true)
         .cornerRadius(15)
         .shadow(radius: 10)
-        .padding(.horizontal, 48)
+        .padding(.horizontal, Constants.General.extraWidePadding)
     }
 }
 
