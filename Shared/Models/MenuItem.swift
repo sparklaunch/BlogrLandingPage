@@ -10,7 +10,6 @@ import Foundation
 struct MenuItem: Hashable {
     let title: String
     let submenuItems: [SubmenuItem]
-    var isExpanded: Bool = false
 }
 
 struct SubmenuItem: Hashable {
